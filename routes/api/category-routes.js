@@ -11,12 +11,16 @@ router.get('/', (req, res) => {
 router.get('/:id', (req, res) => {
   // find one category by its `id` value
   // be sure to include its associated Products
+  Category.findAll({
+    order: ['id'],
+    
+  })
 });
 
 router.post('/', (req, res) => {
   // create a new category
   Category.create({
-    title: req.body.title,
+    title: req.body.categoryId,
     author: req.body.author,
     is_paperback: true
   })
