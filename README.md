@@ -5,7 +5,8 @@
 
 The goal for this challenge was to create a back end for an e-commerce website that uses the latest technologies. When the database information is entered, a development database is created and is seeded with test data. When the application is started, the server is started and thge sequelize models are synced to the MYSQL database. When API GET routes are opened in Insomnia, the data for each of the routes is displayed. When API POST, PUT AND DELETE ROUTES are tested, data are created, updated and deleted from the database. 
 
-Watch this [demo](https://watch.screencastify.com/v/MYJCHk116GPjALOLbT0R).
+Watch this [InitiateDemo](https://watch.screencastify.com/v/MYJCHk116GPjALOLbT0R).
+        [InsomniaDemo](https://watch.screencastify.com/v/uktXfQS5MQxEal4C9DKP)
 
 ## Table of Contents
 
@@ -33,7 +34,7 @@ Watch this [demo](https://watch.screencastify.com/v/MYJCHk116GPjALOLbT0R).
 
 Within the directory, the server is started by using the command `npm start`.
 
-![image](add image here)
+![image](https://github.com/AmyEdmond/E-Commerce_Back_End/assets/122325607/ebdfbc69-c482-4400-a0d3-3d3bc3f6a7f3)
 
 ## Technologies
 
