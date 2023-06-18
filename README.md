@@ -7,7 +7,7 @@ The goal for this challenge was to create a back end for an e-commerce website t
 
 Watch this walkthrough:
 
-[InitiateDemo](https://watch.screencastify.com/v/MYJCHk116GPjALOLbT0R).
+[InitiateDemo](https://watch.screencastify.com/v/MYJCHk116GPjALOLbT0R)
 
 [InsomniaDemo](https://watch.screencastify.com/v/uktXfQS5MQxEal4C9DKP)
 
