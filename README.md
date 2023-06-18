@@ -3,7 +3,7 @@
 
 ## Description
 
-The goal for this challenge was to create a back end for an e-commerce website that uses the latest technologies. When the database information is entered, a development database is created and is seeded with test data. When the application is started, the server is started and thge sequelize models are synced to the MYSQL database. When API GET routes are opened in Insomnia, the data for each of the routes is displaye. When API POST, PUT AND DELETE ROUTES are tested, data are created, updated and deleted from the database. 
+The goal for this challenge was to create a back end for an e-commerce website that uses the latest technologies. When the database information is entered, a development database is created and is seeded with test data. When the application is started, the server is started and thge sequelize models are synced to the MYSQL database. When API GET routes are opened in Insomnia, the data for each of the routes is displayed. When API POST, PUT AND DELETE ROUTES are tested, data are created, updated and deleted from the database. 
 
 Watch this [demo](https://watch.screencastify.com/v/MYJCHk116GPjALOLbT0R).
 
