@@ -3,7 +3,9 @@
 
 ## Description
 
-The goal for this challenge was to create an application that can be used to view and manage the departments, roles, and employees in a company. When the application is started, several options are presented so a formatted table is shown with the different informations requested. Some of the options require data to be entered to update or add additional informations. Watch this [demo](https://watch.screencastify.com/v/JMHUsfXuXFq0dKwNxeL9) to see the employee database.
+The goal for this challenge was to create a back end for an e-commerce website that uses the latest technologies. When the database information is entered, a development database is created and is seeded with test data. When the application is started, the server is started and thge sequelize models are synced to the MYSQL database. When API GET routes are opened in Insomnia, the data for each of the routes is displaye. When API POST, PUT AND DELETE ROUTES are tested, data are created, updated and deleted from the database. 
+
+Watch this [demo](https://watch.screencastify.com/v/MYJCHk116GPjALOLbT0R).
 
 ## Table of Contents
 
@@ -20,29 +22,28 @@ The goal for this challenge was to create an application that can be used to vie
 
 * Copy the SSH link within this repo located under the green "Code" button.
 * Clone the repo within GitBash by using the command "git clone `paste link here`"
-* Run the command `npm init` to create a package.json file.
+* Run the command `npm install` to create a package.json file.
 * Run the command `npm install` to get the dependencies installed.
-* Run the command `npm install inquirer` to install the inquirer package.
-* Run the command `npm install figlet` to install the FIGfont spec package.
-* Run the command `npm install chalk` to install the string styling Logo.
-* Run the command `npm install mysql2` to connect to mysql database.
-* Run the command `npm install dotenv` to store environment variables.
+* Run the command `npm install dotenv` and create a .env file to store environment variables.
+* Run the command `mysql -u root -p` to initiate mysql.
+* Run the command `SOURCE db/schema.sql` to create the database.
+* Run the command `npm run seed` to seed data to the database.
 
 ## Usage
 
-Within the directory, the application is invoked by using the command `node server.js`.
+Within the directory, the server is started by using the command `npm start`.
 
-![image](https://github.com/AmyEdmond/Employee_Tracker/assets/122325607/6bd37bc9-ccda-49ab-86d0-3ae994bbc57e)
+![image](add image here)
 
 ## Technologies
 
 * JavaScript
 * Node.js
 * MYSQL
-* Console.table
-* Inquirer
-* Figlet
-* Chalk
+* Sequelize
+* Express
+* Dotenv
+
 
 ## Credits
 
