@@ -26,7 +26,7 @@ Watch this walkthrough:
 
 * Copy the SSH link within this repo located under the green "Code" button.
 * Clone the repo within GitBash by using the command "git clone `paste link here`"
-* Run the command `npm install` to create a package.json file.
+* Run the command `npm init` to create a package.json file.
 * Run the command `npm install` to get the dependencies installed.
 * Run the command `npm install dotenv` and create a .env file to store environment variables.
 * Run the command `mysql -u root -p` to initiate mysql.
